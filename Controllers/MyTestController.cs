@@ -10,7 +10,7 @@ namespace GitPracticeApp.Controllers
         [HttpGet("Display")]
         public string Display()
         {
-            return "from local";
+            return "from loca ljdncjlsnclsnclkasnclkasnclkasncdwklckldncjlwnhduol";
         }
         [HttpGet("Display2")]
         public string Display2()
