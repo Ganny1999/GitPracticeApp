@@ -12,5 +12,10 @@ namespace GitPracticeApp.Controllers
         {
             return "from local";
         }
+        [HttpGet]
+        public string Display()
+        {
+            return "from Remote";
+        }
     }
 }
