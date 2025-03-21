@@ -1,0 +1,6 @@
+@GitPracticeApp_HostAddress = http://localhost:5029
+
+GET {{GitPracticeApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
