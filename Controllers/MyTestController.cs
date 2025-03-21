@@ -22,5 +22,10 @@ namespace GitPracticeApp.Controllers
         {
             return "Post method";
         }
+        [HttpGet("NewFearture")]
+        public string NewFearture()
+        {
+            return "New feature added.";
+        }
     }
 }
