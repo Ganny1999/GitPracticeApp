@@ -7,13 +7,13 @@ namespace GitPracticeApp.Controllers
     [ApiController]
     public class MyTestController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("Display")]
         public string Display()
         {
-            return "from local";
+            return "from loca ljdncjlsnclsnclkasnclkasnclkasncdwklckldncjlwnhduol";
         }
-        [HttpGet]
-        public string Display()
+        [HttpGet("Display2")]
+        public string Display2()
         {
             return "from Remote";
         }
