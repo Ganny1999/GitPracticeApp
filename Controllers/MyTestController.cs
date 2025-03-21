@@ -17,5 +17,10 @@ namespace GitPracticeApp.Controllers
         {
             return "from Remote";
         }
+        [HttpPost]
+        public string Post()
+        {
+            return "Post method";
+        }
     }
 }
