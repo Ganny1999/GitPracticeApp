@@ -32,5 +32,10 @@ namespace GitPracticeApp.Controllers
         {
             return "New feature added.";
         }
+        [HttpGet("NewGetList1")]
+        public string NewGetList1()
+        {
+            return "New feature added.";
+        }
     }
 }
